@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.conteiner{
+    background-color: black;
+}
 .ROMA {
     height: 70vh;
     width: 70vw;
@@ -10,10 +13,34 @@
     position: relative;
     left: 50%;
     transform: translate(-50%);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.testo{
+.BANGKOK {
+    height: 70vh;
+    width: 70vw;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fstatic.asiawebdirect.com%2Fm%2Fbangkok%2Fportals%2Fbangkok-com%2Fhomepage%2Ftop10-hotels%2FpagePropertiesImage%2Fbest-hotels-in-bangkok.jpg.jpg&f=1&nofb=1);
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.NEWYORK {
+    height: 70vh;
+    width: 70vw;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fi.huffpost.com%2Fgen%2F1186421%2Fthumbs%2Fo-NEW-YORK-PASS-COMPARISON-facebook.jpg&f=1&nofb=1);
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testo {
     text-align: center;
     position: absolute;
+    color: white;
     left: 50%;
     top:50%;
     transform: translate(-50%,-50%);
@@ -24,5 +51,5 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(255, 255, 255, 0.3)
+    background-color: rgba(-255, -255, -255, 0.3)
 }
