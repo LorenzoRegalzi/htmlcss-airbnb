@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ROMA {
+    height: 80vw;
+    width: 80vw;
+    background-color: red;
+    url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FWoXJc0LaF6U%2Fmaxresdefault.jpg&f=1&nofb=1);
+    position: absolute;
+    left: 50%;
+    top: 50;
+    transform: translate(-50%, -50%);
+    background-repeat: no-repeat;
+    background-size:auto;
+
+}
+img{
+
+}
